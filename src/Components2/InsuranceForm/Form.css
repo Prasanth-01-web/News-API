@@ -1,0 +1,48 @@
+.Form{
+    width: 1500px;
+    margin: 0px auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.Insurance-Form .ant-input {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-variant: tabular-nums;
+    list-style: none;
+    font-feature-settings: 'tnum', "tnum";
+    position: relative;
+    display: inline-block;
+    width: 400px !important;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    line-height: 1.5715;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    transition: all 0.3s;
+    /* border: none !important;
+    border-bottom: 1px solid black !important; */
+}
+
+/* .ant-input:focus, .ant-input-focused {
+    border-right-width: 1px;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.ant-input:hover {
+    border-right-width: 1px;
+} */
+
+.Insurance-Form .ant-row {
+    display: flex;
+    flex-flow: row wrap;
+    min-width: 0;
+    padding: 15px 0px;
+}

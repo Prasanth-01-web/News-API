@@ -1,0 +1,188 @@
+/* container */
+
+.Signin {
+    width: 1400px;
+    margin: 0px auto;
+  }
+  
+  /* Shriram Image */
+  
+  .Main-Card img {
+    vertical-align: middle;
+    border-style: none;
+    width: 125px;
+    height: 60px;
+    position: relative;
+    left: 99px;
+  }
+  
+  .Main-Card .Img {
+    width: 339px;
+    background: #fff;
+    position: relative;
+    right: 25px;
+  }
+  
+  .Text-Label {
+    padding: 16px 0px 0px 0px;
+  }
+  
+  .Text-Label h3,
+  h5 {
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    color: #ffffff !important;
+    font-weight: 500;
+  }
+  
+  .Text-Label hr {
+    box-sizing: initial;
+    height: 0;
+    overflow: visible;
+    width: 336px;
+    position: relative;
+    right: 24px;
+    background-color: grey;
+    opacity: 0.20;
+  }
+  
+  /* Overall Card  */
+  
+  .Signin .ant-card-bordered {
+    border: 1px solid wheat;
+    background-color: #02699d !important;
+    color: #ffffff !important;
+    border-radius: 15px !important;
+    width: 340px;
+    position: relative;
+    left: 530px;
+    top: 10px;
+    height: 400px;
+  }
+  
+  /* Card Body */
+  
+  .Signin .ant-card-body {
+    padding: 20px 24px !important;
+    width: 340px;
+    position: relative;
+  }
+  
+  /* Phone Number Label */
+  
+  .Signin-Form .ant-form-item-label > label::after {
+    display: none !important;
+  }
+  
+  .Signin-Form .Phone-Number-label {
+    height: 10px !important;
+  }
+  
+  .Signin-Form .Phone-Number-label .ant-form-item-label > label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: #ffffff !important;
+    font-size: 14px;
+  }
+  
+  .Signin-Form .Input-Field {
+    border-radius: 5px !important;
+  }
+  
+  /* OTP Label */
+  
+  .Signin-Form .OTP-label {
+    height: 10px !important;
+  }
+  
+  .Signin-Form .OTP-label .ant-form-item-label > label {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    max-width: 100%;
+    height: 32px;
+    color: #ffffff !important;
+    font-size: 14px;
+  }
+  
+  /* Four input field */
+  
+  .Signin-Form .ant-col {
+    position: relative;
+    max-width: 100%;
+    min-height: 1px;
+    display: inline-flex !important;
+    gap: 20px !important;
+  }
+  
+  /* RESEND option */
+  
+  .Signin-Form .RESEND-button {
+    display: flex !important;
+    justify-content: space-between;
+    color: #ffffff;
+    padding-top: 10px;
+  }
+  
+  .Signin-Form .RESEND-button p{
+    font-size: 8px !important;
+  }
+  
+  .Signin-Form .resend-button {
+    font-size: 8px !important;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Set Password button */
+  
+  .Signin-Form .ant-btn-primary {
+    color: #fff;
+    border-color: #1890ff;
+    background: #f4891d !important;
+    text-shadow: 0 -1px 0 rgb(0 0 0 / 12%);
+    box-shadow: 0 2px 0 rgb(0 0 0 / 5%);
+    border-radius: 5px !important;
+    width: 294px !important;
+    height: 39px !important;
+    text-align: center !important;
+  }
+  
+  .Signin .Footer-Policy {
+    position: relative;
+    top: 225px;
+  }
+  
+  .Signin .Footer-Policy a {
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .Signin .Footer-Policy a:hover {
+    color: black !important;
+  }
+  
+  .Signin .Footer-Policy p {
+    font-size: smaller;
+    font-weight: 600;
+  }
+  
+  /* input.ant-input.input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: 1px solid black;
+      background-color: transparent;
+      width: 500px;
+      left: 40px;
+  }
+  
+  .ant-input:focus{
+      box-shadow: none !important;   
+  } */
+  
+  
